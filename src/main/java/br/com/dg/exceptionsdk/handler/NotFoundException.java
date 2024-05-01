@@ -1,4 +1,4 @@
-package com.exception.sdk.exception;
+package br.com.dg.exceptionsdk.handler;
 
 public class NotFoundException extends RuntimeException {
 

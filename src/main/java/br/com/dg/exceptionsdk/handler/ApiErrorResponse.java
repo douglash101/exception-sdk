@@ -1,9 +1,11 @@
-package com.exception.sdk.exception;
+package br.com.dg.exceptionsdk.handler;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.http.HttpStatusCode;
+
+import java.time.OffsetDateTime;
 
 @Builder
 @Getter
@@ -15,4 +17,6 @@ public class ApiErrorResponse {
     private String message;
 
     private String detail;
+
+    private OffsetDateTime time;
 }
